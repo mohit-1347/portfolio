@@ -46,7 +46,7 @@ const Education = () => {
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title="Business Technology Solutions Associate"
-            subTitle="ZS Associates - (Jan 2025   - Present)"
+            subTitle="ZS Associates - (Jan 2025 - Present)"
             result="Pune, India"
             des="Contributing to the design and implementation of data-driven 
               technology solutions to support client business processes and decision-making."
