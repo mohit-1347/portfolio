@@ -15,7 +15,14 @@ const Projects = () => {
           des="My Projects"
         />
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-2 gap-6 xl:gap-14">
+        <ProjectsCard
+          title="Vocalis: MultiLingual Speech to Text Translator"
+          des=" Converts spoken language into text and translates it into a user-selected 
+            target language to bridge communication gaps across diverse linguistic communities. "
+          src={projectFour}
+          githubLink="https://github.com/mohit-1347/Vocalis"
+        />
         <ProjectsCard
           title="attendEase: Face Recognition Attendance System"
           des=" Developed Scalable and Secure Multi-Face Recognition Attendance System(MFRAS) 
